@@ -1,0 +1,1001 @@
+Rank,Movie,Lifetime Gross,Year
+1,Star Wars: Episode VII - The Force Awakens,936662225,2015
+2,Avengers: Endgame,858373000,2019
+3,Spider-Man: No Way Home,772170405,2021
+4,Avatar,760507625,2009
+5,Black Panther,700426566,2018
+6,Avengers: Infinity War,678815482,2018
+7,Titanic,659363944,1997
+8,Jurassic World,652385625,2015
+9,The Avengers,623357910,2012
+10,Star Wars: Episode VIII - The Last Jedi,620181382,2017
+11,Incredibles 2,608581744,2018
+12,The Lion King,543638043,2019
+13,The Dark Knight,534858444,2008
+14,Rogue One: A Star Wars Story,532177324,2016
+15,Star Wars: Episode IX - The Rise of Skywalker,515202542,2019
+16,Beauty and the Beast,504481165,2017
+17,Finding Dory,486295561,2016
+18,Frozen II,477373578,2019
+19,Star Wars: Episode I - The Phantom Menace,474544677,1999
+20,Star Wars: Episode IV - A New Hope,460998507,1977
+21,Avengers: Age of Ultron,459005868,2015
+22,The Dark Knight Rises,448139099,2012
+23,Shrek 2,441226247,2004
+24,E.T. the Extra-Terrestrial,435110554,1982
+25,Toy Story 4,434038008,2019
+26,Captain Marvel,426829839,2019
+27,The Hunger Games: Catching Fire,424668047,2013
+28,Pirates of the Caribbean: Dead Man's Chest,423315812,2006
+29,The Lion King,422783777,1994
+30,Jurassic World: Fallen Kingdom,417719760,2018
+31,Toy Story 3,415004880,2010
+32,Wonder Woman,412815408,2017
+33,Iron Man 3,409013994,2013
+34,Captain America: Civil War,408084349,2016
+35,The Hunger Games,408010692,2012
+36,Spider-Man,407022860,2002
+37,Jumanji: Welcome to the Jungle,404540171,2017
+38,Jurassic Park,404214720,1993
+39,Transformers: Revenge of the Fallen,402111870,2009
+40,Frozen,400953009,2013
+41,Spider-Man: Far from Home,390532085,2019
+42,Guardians of the Galaxy Vol. 2,389813101,2017
+43,Harry Potter and the Deathly Hallows: Part 2,381409310,2011
+44,Finding Nemo,380843261,2003
+45,Star Wars: Episode III - Revenge of the Sith,380270577,2005
+46,The Lord of the Rings: The Return of the King,377845905,2003
+47,Spider-Man 2,373585825,2004
+48,The Passion of the Christ,370782930,2004
+49,The Secret Life of Pets,368384330,2016
+50,Despicable Me 2,368065385,2013
+51,The Jungle Book,364001123,2016
+52,Deadpool,363070709,2016
+53,Inside Out,356921711,2015
+54,Aladdin,355559216,2019
+55,Furious 7,353007020,2015
+56,Transformers: Dark of the Moon,352390543,2011
+57,American Sniper,350126372,2014
+58,The Lord of the Rings: The Two Towers,342551365,2002
+59,Zootopia,341268248,2016
+60,The Hunger Games: Mockingjay - Part 1,337135885,2014
+61,Spider-Man 3,336530303,2007
+62,Minions,336045770,2015
+63,Joker,335451311,2019
+64,Aquaman,335061807,2018
+65,Spider-Man: Homecoming,334201140,2017
+66,Alice in Wonderland,334191110,2010
+67,Guardians of the Galaxy,333718600,2014
+68,Forrest Gump,330455270,1994
+69,Batman v Superman: Dawn of Justice,330360194,2016
+70,It,328828874,2017
+71,Suicide Squad,325100054,2016
+72,Deadpool 2,324591735,2018
+73,Shrek the Third,322719944,2007
+74,Jumanji: The Next Level,320314960,2019
+75,Transformers,319246193,2007
+76,Iron Man,319034126,2008
+77,Harry Potter and the Sorcerer's Stone,318886962,2001
+78,Indiana Jones and the Kingdom of the Crystal Skull,317101119,2008
+79,The Lord of the Rings: The Fellowship of the Ring,316115420,2001
+80,Thor: Ragnarok,315058289,2017
+81,Iron Man 2,312433331,2010
+82,Star Wars: Episode II - Attack of the Clones,310676740,2002
+83,Pirates of the Caribbean: At World's End,309420425,2007
+84,Star Wars: Episode VI - Return of the Jedi,309306177,1983
+85,Independence Day,306169268,1996
+86,Pirates of the Caribbean: The Curse of the Black Pearl,305413918,2003
+87,Skyfall,304360277,2012
+88,The Hobbit: An Unexpected Journey,303003568,2012
+89,Harry Potter and the Half-Blood Prince,302305431,2009
+90,The Twilight Saga: Eclipse,300531751,2010
+91,The Twilight Saga: New Moon,297816253,2009
+92,Harry Potter and the Deathly Hallows: Part 1,296347721,2010
+93,The Sixth Sense,293506292,1999
+94,Up,293004164,2009
+95,Star Wars: Episode V - The Empire Strikes Back,292753960,1980
+96,Inception,292576195,2010
+97,Harry Potter and the Order of the Phoenix,292353413,2007
+98,The Twilight Saga: Breaking Dawn - Part 2,292324737,2012
+99,The Chronicles of Narnia: The Lion the Witch and the Wardrobe,291710957,2005
+100,Man of Steel,291045518,2013
+101,Monsters Inc.,290642256,2001
+102,Harry Potter and the Goblet of Fire,290417905,2005
+103,Home Alone,285761243,1990
+104,The Hunger Games: Mockingjay - Part 2,281723902,2015
+105,The Matrix Reloaded,281576461,2003
+106,The Twilight Saga: Breaking Dawn - Part 1,281287133,2011
+107,Meet the Fockers,279261160,2004
+108,The Hangover,277322503,2009
+109,Gravity,274092705,2013
+110,The Grinch,271094731,2018
+111,Sing,270448425,2016
+112,Monsters University,268492764,2013
+113,Shrek,267665011,2001
+114,Despicable Me 3,264624300,2017
+115,Harry Potter and the Chamber of Secrets,262450136,2002
+116,The Amazing Spider-Man,262030663,2012
+117,The Incredibles,261441092,2004
+118,Jaws,260758300,1975
+119,How the Grinch Stole Christmas,260465005,2000
+120,Captain America: The Winter Soldier,259766572,2014
+121,The Hobbit: The Desolation of Smaug,258366855,2013
+122,The Lego Movie,257760692,2014
+123,Star Trek,257730019,2009
+124,I Am Legend,256393010,2007
+125,The Blind Side,255959475,2009
+126,The Hobbit: The Battle of the Five Armies,255119788,2014
+127,The Hangover Part II,254464305,2011
+128,Despicable Me,251513985,2010
+129,Batman,251348343,1989
+130,Night at the Museum,250863268,2006
+131,Men in Black,250690539,1997
+132,Harry Potter and the Prisoner of Azkaban,249975996,2004
+133,Moana,248757044,2016
+134,Indiana Jones and the Raiders of the Lost Ark,248159971,1981
+135,Toy Story 2,245852179,1999
+136,Transformers: Age of Extinction,245439076,2014
+137,Cars,244082982,2006
+138,Ghostbusters,243578797,1984
+139,Bruce Almighty,242829261,2003
+140,Twister,241721524,1996
+141,My Big Fat Greek Wedding,241438208,2002
+142,Maleficent,241410378,2014
+143,Pirates of the Caribbean: On Stranger Tides,241071802,2011
+144,Shrek Forever After,238736787,2010
+145,Fast & Furious 6,238679850,2013
+146,Brave,237283207,2012
+147,Oz the Great and Powerful,234911825,2013
+148,Beverly Hills Cop,234760478,1984
+149,X-Men: The Last Stand,234362462,2006
+150,War of the Worlds,234280354,2005
+151,Fantastic Beasts and Where to Find Them,234037575,2016
+152,X-Men: Days of Future Past,233921534,2014
+153,Cast Away,233632142,2000
+154,The Exorcist,232906145,1973
+155,Doctor Strange,232641920,2016
+156,The Lost World: Jurassic Park,229086679,1997
+157,Justice League,229024295,2017
+158,Star Trek Into Darkness,228778661,2013
+159,The Martian,228433663,2015
+160,Signs,227966634,2002
+161,Hancock,227946274,2008
+162,The Bourne Ultimatum,227471070,2007
+163,Logan,226277068,2017
+164,Rush Hour 2,226164286,2001
+165,The Fate of the Furious,226008385,2017
+166,Shang-Chi and the Legend of the Ten Rings,224543292,2021
+167,WALL·E,223808164,2008
+168,Toy Story,223225679,1995
+169,Big Hero 6,222527828,2014
+170,Mission: Impossible - Fallout,220159104,2018
+171,National Treasure: Book of Secrets,219964115,2007
+172,Alvin and the Chipmunks: The Squeakquel,219614612,2009
+173,Mrs. Doubtfire,219195243,1993
+174,Beauty and the Beast,218967620,1991
+175,Ted,218815487,2012
+176,King Kong,218080025,2005
+177,Ghost,217631306,1990
+178,How to Train Your Dragon,217581231,2010
+179,The Da Vinci Code,217536138,2006
+180,Aladdin,217350219,1992
+181,Alvin and the Chipmunks,217326974,2007
+182,Saving Private Ryan,217049603,1998
+183,Bohemian Rhapsody,216668042,2018
+184,Ant-Man and the Wasp,216648740,2018
+185,Madagascar 3: Europe's Most Wanted,216391482,2012
+186,Kung Fu Panda,215434591,2008
+187,Mission: Impossible II,215409889,2000
+188,A Star Is Born,215288866,2018
+189,X2: X-Men United,214949694,2003
+190,The Lorax,214030500,2012
+191,Solo: A Star Wars Story,213767512,2018
+192,Venom: Let There Be Carnage,213550366,2021
+193,Venom,213515506,2018
+194,Austin Powers in Goldmember,213307889,2002
+195,It Chapter Two,211593228,2019
+196,Back to the Future,211406762,1985
+197,300,210614939,2007
+198,Coco,210460015,2017
+199,Fast Five,209837675,2011
+200,Mission: Impossible - Ghost Protocol,209397903,2011
+201,Wedding Crashers,209255921,2005
+202,Sherlock Holmes,209028679,2009
+203,Dawn of the Planet of the Apes,208545589,2014
+204,Batman Begins,206852432,2005
+205,Charlie and the Chocolate Factory,206459076,2005
+206,Ratatouille,206445654,2007
+207,Thor: The Dark World,206362140,2013
+208,Bad Boys for Life,206305244,2020
+209,Austin Powers: The Spy Who Shagged Me,206040086,1999
+210,Terminator 2: Judgment Day,205881154,1991
+211,The Amazing Spider-Man 2,202853933,2014
+212,World War Z,202807711,2013
+213,The Mummy Returns,202019785,2001
+214,Armageddon,201578182,1998
+215,Cinderella,201151353,2015
+216,Ralph Breaks the Internet,201091711,2018
+217,Gone with the Wind,200852579,1939
+218,Tangled,200821936,2010
+219,Godzilla,200676069,2014
+220,Superman Returns,200081192,2006
+221,Spectre,200074609,2015
+222,Pearl Harbor,198542554,2001
+223,Monsters vs. Aliens,198351526,2009
+224,Happy Feet,198000317,2006
+225,Indiana Jones and the Last Crusade,197171806,1989
+226,Ice Age 3: Dawn of the Dinosaurs,196573705,2009
+227,Ice Age 2: The Meltdown,195330621,2006
+228,Mission: Impossible - Rogue Nation,195042377,2015
+229,Twilight,193962473,2008
+230,Men in Black II,193735288,2002
+231,Madagascar,193595521,2005
+232,22 Jump Street,191719337,2014
+233,Cars 2,191452396,2011
+234,Teenage Mutant Ninja Turtles,191204754,2014
+235,Spider-Man: Into the Spider-Verse,190241310,2018
+236,Grease,190071103,1978
+237,Dunkirk,189740665,2017
+238,Wreck-It Ralph,189422889,2012
+239,A Quiet Place,188024361,2018
+240,Interstellar,188020017,2014
+241,The Polar Express,187935490,2004
+242,Gladiator,187705427,2000
+243,The Croods,187168425,2013
+244,Sherlock Holmes: A Game of Shadows,186848418,2011
+245,The Day After Tomorrow,186740799,2004
+246,Mr. & Mrs. Smith,186336279,2005
+247,Snow White and the Seven Dwarfs,184925486,1937
+248,Pitch Perfect 2,184296230,2015
+249,Dances with Wolves,184208848,1990
+250,Batman Forever,184069126,1995
+251,The Fugitive,183875760,1993
+252,Black Widow,183651655,2021
+253,The Revenant,183637894,2015
+254,Ocean's Eleven,183417150,2001
+255,The Simpsons Movie,183135014,2007
+256,What Women Want,182811707,2000
+257,The Perfect Storm,182618434,2000
+258,Lincoln,182207973,2012
+259,Liar Liar,181410615,1997
+260,Jurassic Park III,181171875,2001
+261,Thor,181030624,2011
+262,Mission: Impossible,180981856,1996
+263,Top Gun,180258178,1986
+264,Ant-Man,180202163,2015
+265,Planet of the Apes,180011740,2001
+266,Madagascar: Escape 2 Africa,180010950,2008
+267,X-Men Origins: Wolverine,179883157,2009
+268,Indiana Jones and the Temple of Doom,179870271,1984
+269,Hitch,179495555,2005
+270,Men in Black 3,179020854,2012
+271,Pretty Woman,178406268,1990
+272,Home,177397510,2015
+273,Night at the Museum: Battle of the Smithsonian,177243721,2009
+274,Tootsie,177200000,1982
+275,How to Train Your Dragon 2,177002924,2014
+276,Rise of the Planet of the Apes,176760185,2011
+277,Captain America: The First Avenger,176654505,2011
+278,Elf,176630408,2003
+279,The Karate Kid,176591618,2010
+280,There's Something About Mary,176484651,1998
+281,Ice Age,176387405,2002
+282,The Bourne Supremacy,176241941,2004
+283,Get Out,176040665,2017
+284,The Lego Batman Movie,175750384,2017
+285,Us,175084580,2019
+286,The Boss Baby,175003033,2017
+287,Crocodile Dundee,174803506,1986
+288,Crazy Rich Asians,174532921,2018
+289,The Greatest Showman,174340174,2017
+290,Fast & Furious Presents: Hobbs & Shaw,173956935,2019
+291,Apollo 13,173837933,1995
+292,Home Alone 2: Lost in New York,173585516,1992
+293,National Treasure,173008894,2004
+294,F9: The Fast Saga,173005945,2021
+295,Air Force One,172956409,1997
+296,Rain Man,172825435,1988
+297,Pirates of the Caribbean: Dead Men Tell No Tales,172558876,2017
+298,The Matrix,172076928,1999
+299,TRON: Legacy,172062763,2010
+300,Mary Poppins Returns,171958438,2018
+301,True Grit,171243005,2010
+302,Tarzan,171091819,1999
+303,John Wick: Chapter 3 - Parabellum,171015687,2019
+304,A Beautiful Mind,170742341,2001
+305,Chicago,170687518,2002
+306,The Help,169708112,2011
+307,Hotel Transylvania 2,169700110,2015
+308,Hidden Figures,169607287,2016
+309,Bridesmaids,169106725,2011
+310,Quantum of Solace,168368427,2008
+311,Wild Hogs,168273550,2007
+312,Kong: Skull Island,168052812,2017
+313,Three Men and a Baby,167780960,1987
+314,Gone Girl,167767189,2014
+315,Hotel Transylvania 3: Summer Vacation,167510016,2018
+316,Casino Royale,167445960,2006
+317,Meet the Parents,166244045,2000
+318,Fifty Shades of Grey,166167230,2015
+319,2012,166112167,2009
+320,Robin Hood: Prince of Thieves,165493908,1991
+321,Knives Out,165363234,2019
+322,Kung Fu Panda 2,165249063,2011
+323,Hannibal,165092268,2001
+324,Eternals,164870234,2021
+325,Catch Me If You Can,164615351,2002
+326,The Proposal,163958031,2009
+327,The Pursuit of Happyness,163566459,2006
+328,Big Daddy,163479795,1999
+329,Clash of the Titans,163214888,2010
+330,The SpongeBob Movie: Sponge Out of Water,162994032,2015
+331,Batman Returns,162902340,1992
+332,Django Unchained,162805434,2012
+333,A Bug's Life,162798565,1998
+334,Jason Bourne,162434410,2016
+335,Grown Ups,162001186,2010
+336,The Waterboy,161491646,1998
+337,Ice Age 4: Continental Drift,161321843,2012
+338,Straight Outta Compton,161197785,2015
+339,Die Another Day,160942139,2002
+340,No Time to Die,160891007,2021
+341,Shark Tale,160861908,2004
+342,How to Train Your Dragon: The Hidden World,160799505,2019
+343,A Quiet Place Part II,160072261,2021
+344,The Heat,159582188,2013
+345,Fantastic Beasts: The Crimes of Grindelwald,159555901,2018
+346,Halloween,159342015,2018
+347,The Sound of Music,159287539,1965
+348,1917,159227644,2019
+349,The Secret Life of Pets 2,158874395,2019
+350,Star Trek Beyond,158848340,2016
+351,The Firm,158348367,1993
+352,The Longest Yard,158119460,2005
+353,X-Men,157299718,2000
+354,Scary Movie,157019771,2000
+355,Fatal Attraction,156645693,1987
+356,Who Framed Roger Rabbit,156452370,1988
+357,The Sting,156000000,1973
+358,What Lies Beneath,155464351,2000
+359,X-Men: Apocalypse,155442489,2016
+360,The Mummy,155385488,1999
+361,Snow White and the Huntsman,155332381,2012
+362,San Andreas,155190832,2015
+363,Fast & Furious,155064265,2009
+364,Over the Hedge,155019340,2006
+365,Fantastic Four,154696080,2005
+366,Horton Hears a Who!,154529439,2008
+367,Mad Max: Fury Road,154058340,2015
+368,Jerry Maguire,153952592,1996
+369,Trolls,153707064,2016
+370,Beverly Hills Cop II,153665036,1987
+371,Gremlins,153378102,1984
+372,Scooby-Doo,153294164,2002
+373,Cars 3,152901115,2017
+374,Sex and the City,152647258,2008
+375,Runaway Bride,152257509,1999
+376,La La Land,151101803,2016
+377,Divergent,150947895,2014
+378,Rambo: First Blood Part II,150415432,1985
+379,We're the Millers,150394119,2013
+380,Terminator 3: Rise of the Machines,150371112,2003
+381,Daddy's Home,150357137,2015
+382,G.I. Joe: The Rise of Cobra,150201498,2009
+383,Neighbors,150157400,2014
+384,American Hustle,150117807,2013
+385,Puss in Boots,149260504,2011
+386,Sonic the Hedgehog,148974665,2020
+387,Les Misérables,148809770,2012
+388,Knocked Up,148768917,2007
+389,As Good as It Gets,148478011,1997
+390,Little Fockers,148438600,2010
+391,Megamind,148415853,2010
+392,Sing 2,148338755,2021
+393,Hotel Transylvania,148313048,2012
+394,Talladega Nights: The Ballad of Ricky Bobby,148213377,2006
+395,Gran Torino,148095302,2008
+396,Lethal Weapon 2,147253986,1989
+397,War for the Planet of the Apes,146880162,2017
+398,X-Men: First Class,146408305,2011
+399,Paul Blart: Mall Cop,146336178,2009
+400,True Lies,146282411,1994
+401,Lilo & Stitch,145794338,2002
+402,The Santa Clause,145539357,1994
+403,The Meg,145443742,2018
+404,American Pie 2,145103595,2001
+405,Taken,145000989,2009
+406,One Hundred and One Dalmatians,144880014,1961
+407,The Great Gatsby,144840419,2013
+408,I Robot,144801023,2004
+409,Lethal Weapon 3,144731527,1992
+410,The Fast and the Furious,144533925,2001
+411,Mamma Mia!,144169664,2008
+412,Doctor Dolittle,144156605,1998
+413,Pokémon Detective Pikachu,144105346,2019
+414,Rio,143619809,2011
+415,Kung Fu Panda 3,143528619,2016
+416,Juno,143495265,2007
+417,Marley & Me,143153751,2008
+418,The Smurfs,142614158,2011
+419,Once Upon a Time... In Hollywood,142502728,2019
+420,xXx,142109382,2002
+421,The Jungle Book,141843612,1967
+422,The Chronicles of Narnia: Prince Caspian,141621490,2008
+423,National Lampoon's Animal House,141600000,1978
+424,Pocahontas,141579773,1995
+425,A Few Good Men,141340178,1992
+426,Slumdog Millionaire,141319928,2008
+427,Rush Hour,141186864,1998
+428,The Blair Witch Project,140539099,1999
+429,Deep Impact,140464664,1998
+430,Shazam!,140371656,2019
+431,Ocean's Eight,140218711,2018
+432,Rush Hour 3,140125968,2007
+433,Look Who's Talking,140088813,1989
+434,Stuart Little,140035367,1999
+435,Taken 2,139854287,2012
+436,Sister Act,139605150,1992
+437,The Matrix Revolutions,139313948,2003
+438,The Santa Clause 2,139236327,2002
+439,The King's Speech,138797449,2010
+440,Cheaper by the Dozen,138614544,2003
+441,Bad Boys II,138608444,2003
+442,Platoon,138530565,1986
+443,21 Jump Street,138447667,2012
+444,Good Will Hunting,138433435,1997
+445,Split,138291365,2017
+446,A Christmas Carol,137855863,2009
+447,Dinosaur,137748063,2000
+448,Ready Player One,137690172,2018
+449,The Conjuring,137400141,2013
+450,Click,137355633,2006
+451,The Green Mile,136801374,1999
+452,Ransom,136492681,1996
+453,Godzilla,136314294,1998
+454,101 Dalmatians,136189294,1996
+455,Argo,136025503,2012
+456,Anger Management,135645823,2003
+457,Chicken Little,135386665,2005
+458,Teenage Mutant Ninja Turtles,135265915,1990
+459,Close Encounters of the Third Kind,135189114,1977
+460,Patch Adams,135026902,1998
+461,The Godfather,134966411,1972
+462,Ride Along,134938200,2014
+463,The Incredible Hulk,134806913,2008
+464,Live Free or Die Hard,134529403,2007
+465,Wanted,134508551,2008
+466,Identity Thief,134506920,2013
+467,Superman,134451603,1978
+468,The Rock,134069511,1996
+469,Mission: Impossible III,134029801,2006
+470,Grown Ups 2,133668525,2013
+471,Troy,133378256,2004
+472,Angels & Demons,133375846,2009
+473,Alvin and the Chipmunks: Chipwrecked,133110742,2011
+474,Bringing Down the House,132716677,2003
+475,The Wolverine,132556852,2013
+476,Wonder,132422809,2017
+477,The Departed,132384315,2006
+478,Hulk,132177234,2003
+479,Silver Linings Playbook,132092958,2012
+480,Minority Report,132072926,2002
+481,Fantastic 4: Rise of the Silver Surfer,131921738,2007
+482,The Last Airbender,131772187,2010
+483,Rio 2,131538435,2014
+484,Lara Croft: Tomb Raider,131168070,2001
+485,The Silence of the Lambs,130742922,1991
+486,Honey I Shrunk the Kids,130724172,1989
+487,The Flintstones,130531208,1994
+488,Lethal Weapon 4,130444603,1998
+489,Get Smart,130319208,2008
+490,The Divergent Series: Insurgent,130179072,2015
+491,The Peanuts Movie,130178411,2015
+492,Transformers: The Last Knight,130168683,2017
+493,American Gangster,130164645,2007
+494,American Beauty,130096601,1999
+495,An Officer and a Gentleman,129795554,1982
+496,The Ring,129128133,2002
+497,Ghostbusters: Afterlife,129126645,2021
+498,The Nutty Professor,128814019,1996
+499,Borat: Cultural Learnings of America for Make Benefit Glorious Nation of Kazakhstan,128505958,2006
+500,Ghostbusters,128350574,2016
+501,Kingsman: The Secret Service,128261724,2015
+502,Robots,128200012,2005
+503,Coming to America,128152301,1988
+504,Crouching Tiger Hidden Dragon,128078872,2000
+505,Shutter Island,128012934,2010
+506,Into the Woods,128002372,2014
+507,Rocky IV,127873716,1985
+508,Enchanted,127807262,2007
+509,The Curious Case of Benjamin Button,127509326,2008
+510,Central Intelligence,127440871,2016
+511,Anchorman 2: The Legend Continues,127352707,2013
+512,Sweet Home Alabama,127223418,2002
+513,Bumblebee,127195589,2018
+514,Dumb and Dumber,127175374,1994
+515,2 Fast 2 Furious,127154901,2003
+516,My Best Friend's Wedding,127120029,1997
+517,Super 8,127004179,2011
+518,The World Is Not Enough,126943684,1999
+519,Sleepless in Seattle,126808165,1993
+520,Smokey and the Bandit,126737428,1977
+521,Lucy,126663600,2014
+522,The Legend of Tarzan,126643061,2016
+523,Bee Movie,126631277,2007
+524,Prometheus,126477084,2012
+525,Safe House,126373434,2012
+526,Mr. Deeds,126293452,2002
+527,The Truman Show,125618201,1998
+528,Erin Brockovich,125595205,2000
+529,Ocean's Twelve,125544280,2004
+530,Terminator Salvation,125322469,2009
+531,Charlie's Angels,125305545,2000
+532,Tomorrow Never Dies,125304276,1997
+533,Lone Survivor,125095601,2013
+534,Sully,125070033,2016
+535,Rocky III,125049125,1982
+536,The Vow,125014030,2012
+537,Life of Pi,124987023,2012
+538,The Fault in Our Stars,124872350,2014
+539,Cloudy with a Chance of Meatballs,124870275,2009
+540,The Devil Wears Prada,124740460,2006
+541,Something's Gotta Give,124728738,2003
+542,Traffic,124115725,2000
+543,The Birdcage,124060553,1996
+544,City Slickers,124033791,1991
+545,Good Morning Vietnam,123922370,1987
+546,Rango,123477607,2011
+547,Nutty Professor II: The Klumps,123309890,2000
+548,The Good Dinosaur,123087120,2015
+549,G.I. Joe: Retaliation,122523060,2013
+550,Clear and Present Danger,122187717,1994
+551,The Hunt for Red October,122012643,1990
+552,The Bodyguard,122006740,1992
+553,Wayne's World,121697323,1992
+554,The Bourne Identity,121661683,2002
+555,Free Guy,121626598,2021
+556,Superbad,121463226,2007
+557,Speed,121248145,1994
+558,50 First Dates,120908074,2004
+559,Mamma Mia! Here We Go Again,120634935,2018
+560,Mulan,120620254,1998
+561,Inglourious Basterds,120540719,2009
+562,Seabiscuit,120277854,2003
+563,Van Helsing,120177084,2004
+564,Four Christmases,120146040,2008
+565,I Now Pronounce You Chuck & Larry,120059556,2007
+566,The Mask,119938730,1994
+567,Cloudy with a Chance of Meatballs 2,119793567,2013
+568,Hook,119654823,1991
+569,Blazing Saddles,119601481,1974
+570,Walk the Line,119519402,2005
+571,G-Force,119436770,2009
+572,Total Recall,119412921,1990
+573,On Golden Pond,119285432,1981
+574,The Other Guys,119219978,2010
+575,Fahrenheit 9/11,119194771,2004
+576,Back to the Future Part II,119000002,1989
+577,The Sum of All Fears,118907036,2002
+578,Hairspray,118871849,2007
+579,The Break-Up,118703275,2006
+580,A Series of Unfortunate Events,118634549,2004
+581,Blades of Glory,118594548,2007
+582,Salt,118311368,2010
+583,Basic Instinct,117727224,1992
+584,Now You See Me,117723989,2013
+585,Ford v Ferrari,117624357,2019
+586,Big Momma's House,117559438,2000
+587,Die Hard 2,117540947,1990
+588,Horrible Bosses,117538559,2011
+589,The Nun,117450119,2018
+590,Rocky,117235147,1976
+591,Jackass 3D,117229692,2010
+592,Ocean's Thirteen,117154724,2007
+593,Jungle Cruise,116987516,2021
+594,S.W.A.T.,116934650,2003
+595,The Wolf of Wall Street,116900694,2013
+596,8 Mile,116750901,2002
+597,Double Jeopardy,116741558,1999
+598,Lee Daniels' The Butler,116632095,2013
+599,Green Lantern,116601172,2011
+600,Notting Hill,116089678,1999
+601,The Towering Inferno,116000000,1974
+602,You've Got Mail,115821495,1998
+603,Ghost Rider,115802596,2007
+604,Remember the Titans,115719751,2000
+605,Creed II,115715889,2018
+606,District 9,115646235,2009
+607,Unbroken,115637895,2014
+608,Peter Rabbit,115253424,2018
+609,Big,115227281,1988
+610,Girls Trip,115171585,2017
+611,The Karate Kid Part II,115103979,1986
+612,American Graffiti,115000000,1973
+613,Dumbo,114766307,2019
+614,Fifty Shades Darker,114581250,2017
+615,Dodgeball: A True Underdog Story,114326736,2004
+616,The Village,114197520,2004
+617,Bolt,114053579,2008
+618,Maleficent: Mistress of Evil,113929605,2019
+619,Wild Wild West,113804681,1999
+620,Night at the Museum: Secret of the Tomb,113746621,2014
+621,Magic Mike,113721571,2012
+622,The Addams Family,113502426,1991
+623,The Patriot,113330342,2000
+624,Bad Moms,113257297,2016
+625,The Bourne Legacy,113203870,2012
+626,The Pacifier,113086868,2005
+627,Dr. Dolittle 2,112952899,2001
+628,The Rocky Horror Picture Show,112892319,1975
+629,It's Complicated,112735375,2009
+630,Spy Kids,112719001,2001
+631,Ghostbusters II,112494738,1989
+632,Face/Off,112276146,1997
+633,The Hangover Part III,112200072,2013
+634,Twins,111938388,1988
+635,Spy Kids 3: Game Over,111761982,2003
+636,Doctor Zhivago,111721910,1965
+637,Enemy of the State,111549836,1998
+638,The Little Mermaid,111543479,1989
+639,Mr. Peabody & Sherman,111506430,2014
+640,Porky's,111289673,1982
+641,The Last Samurai,111127263,2003
+642,Glass,111048468,2019
+643,Spy,110825712,2015
+644,Tropic Thunder,110515313,2008
+645,Godzilla: King of the Monsters,110500138,2019
+646,Valentine's Day,110485654,2010
+647,The Grudge,110359362,2004
+648,Fun with Dick and Jane,110332737,2005
+649,Freaky Friday,110230332,2003
+650,Trainwreck,110212700,2015
+651,Bedtime Stories,110101975,2008
+652,Scary Movie 3,110003217,2003
+653,Creed,109767581,2015
+654,Star Trek IV: The Voyage Home,109713132,1986
+655,The 40-Year-Old Virgin,109449237,2005
+656,Crocodile Dundee II,109306210,1988
+657,Couples Retreat,109204945,2009
+658,One Flew Over the Cuckoo's Nest,108981275,1975
+659,A Time to Kill,108766007,1996
+660,Black Hawk Down,108638745,2001
+661,Terms of Endearment,108423489,1983
+662,Ace Ventura: When Nature Calls,108385533,1995
+663,The Upside,108252517,2019
+664,The Princess Diaries,108248956,2001
+665,Superman II,108185706,1981
+666,Little Women,108101214,2019
+667,Hop,108085305,2011
+668,Dune,108031945,2021
+669,Pulp Fiction,107928762,1994
+670,Paranormal Activity,107918810,2009
+671,Baby Driver,107825862,2017
+672,A League of Their Own,107533928,1992
+673,Epic,107518682,2013
+674,Watchmen,107509799,2009
+675,The Angry Birds Movie,107509366,2016
+676,Batman & Robin,107353792,1997
+677,Captain Phillips,107100855,2013
+678,Black Swan,106954678,2010
+679,Analyze This,106885658,1999
+680,Chicken Run,106834564,2000
+681,Miss Congeniality,106807667,2000
+682,Indecent Proposal,106614059,1993
+683,Driving Miss Daisy,106593296,1989
+684,300: Rise of an Empire,106580051,2014
+685,Love Story,106550690,1970
+686,GoldenEye,106429941,1995
+687,Kramer vs. Kramer,106260000,1979
+688,The Italian Job,106128601,2003
+689,How to Lose a Guy in 10 Days,105813373,2003
+690,The Lego Movie 2: The Second Part,105806508,2019
+691,The First Wives Club,105489203,1996
+692,Robin Hood,105269730,2010
+693,Interview with the Vampire: The Vampire Chronicles,105264608,1994
+694,George of the Jungle,105263257,1997
+695,Hustlers,104963598,2019
+696,The Graduate,104945305,1967
+697,Pitch Perfect 3,104897530,2017
+698,Phenomenon,104636382,1996
+699,American Wedding,104565114,2003
+700,Road to Perdition,104454762,2002
+701,The Princess and the Frog,104400899,2009
+702,The Chronicles of Narnia: The Voyage of the Dawn Treader,104386950,2010
+703,Daddy Day Care,104297061,2003
+704,Daddy's Home 2,104029443,2017
+705,Paranormal Activity 3,104028807,2011
+706,Journey 2: The Mysterious Island,103860290,2012
+707,The Mule,103804407,2018
+708,Dick Tracy,103738726,1990
+709,Rise of the Guardians,103412758,2012
+710,Dreamgirls,103365956,2006
+711,9 to 5,103290500,1980
+712,Independence Day: Resurgence,103144286,2016
+713,The Expendables,103068524,2010
+714,Scream,103046663,1996
+715,Just Go with It,103028109,2011
+716,Murder on the Orient Express,102826543,2017
+717,The General's Daughter,102705852,1999
+718,The Aviator,102610330,2004
+719,American Pie,102561004,1999
+720,Daredevil,102543518,2003
+721,The Girl with the Dragon Tattoo,102515793,2011
+722,The Mummy: Tomb of the Dragon Emperor,102491776,2008
+723,The Conjuring 2,102470008,2016
+724,The Maze Runner,102427862,2014
+725,In the Line of Fire,102314823,1993
+726,Butch Cassidy and the Sundance Kid,102308889,1969
+727,Mary Poppins,102272727,1964
+728,Bambi,102247150,1942
+729,Annabelle: Creation,102092201,2017
+730,The Equalizer 2,102084362,2018
+731,Bad Grandpa,102003019,2013
+732,Pacific Rim,101802906,2013
+733,Journey to the Center of the Earth,101704370,2008
+734,Gone in 60 Seconds,101648571,2000
+735,Maverick,101631272,1994
+736,Sleeping with the Enemy,101599005,1991
+737,The Equalizer,101530738,2014
+738,This Is the End,101470202,2013
+739,Eagle Eye,101440743,2008
+740,The Prince of Egypt,101413188,1998
+741,Scream 2,101363301,1997
+742,Stir Crazy,101300000,1980
+743,Eraser,101295562,1996
+744,Noah,101200044,2014
+745,Unforgiven,101157447,1992
+746,The Cat in the Hat,101149285,2003
+747,Con Air,101117573,1997
+748,Sleepy Hollow,101071502,1999
+749,Rampage,101028233,2018
+750,Collateral,101005703,2004
+751,Contact,100920329,1997
+752,Godzilla vs. Kong,100916094,2021
+753,Charlie's Angels: Full Throttle,100830111,2003
+754,The Pelican Brief,100768056,1993
+755,The Addams Family,100723831,2019
+756,Vanilla Sky,100618344,2001
+757,Arrival,100546139,2016
+758,Due Date,100539043,2010
+759,Jumanji,100499940,1995
+760,The Rugrats Movie,100494675,1998
+761,Million Dollar Baby,100492203,2004
+762,Airport,100489151,1970
+763,A Wrinkle in Time,100478608,2018
+764,Step Brothers,100468793,2008
+765,Evan Almighty,100462298,2007
+766,Fifty Shades Freed,100407760,2018
+767,Casper,100328194,1995
+768,Shakespeare in Love,100317794,1998
+769,Bad Teacher,100292856,2011
+770,Yogi Bear,100246011,2010
+771,Cowboys & Aliens,100240551,2011
+772,Kingsman: The Golden Circle,100234838,2017
+773,Edge of Tomorrow,100206256,2014
+774,The Hunchback of Notre Dame,100138851,1996
+775,Se7en,100125643,1995
+776,Parenthood,100047830,1989
+777,You Don't Mess with the Zohan,100018837,2008
+778,Passengers,100014699,2016
+779,Die Hard with a Vengeance,100012499,1995
+780,Gnomeo & Juliet,99967670,2011
+781,Christopher Robin,99215042,2018
+782,Hercules,99112101,1997
+783,Olympus Has Fallen,98925640,2013
+784,The Green Hornet,98780042,2011
+785,Date Night,98711404,2010
+786,The Color Purple,98467863,1985
+787,Meet the Robinsons,97822171,2007
+788,Yes Man,97690976,2008
+789,Sausage Party,97685686,2016
+790,Inspector Gadget,97403112,1999
+791,Public Enemies,97104620,2009
+792,The Social Network,96962694,2010
+793,Schindler's List,96898818,1993
+794,Downton Abbey,96854135,2019
+795,The Others,96522687,2001
+796,Legally Blonde,96520674,2001
+797,Panic Room,96397334,2002
+798,Rocketman,96368160,2019
+799,Dead Poets Society,95860116,1989
+800,Zero Dark Thirty,95720716,2012
+801,Norbit,95673607,2007
+802,Cold Mountain,95636509,2003
+803,Arthur,95461682,1981
+804,Sex and the City 2,95347692,2010
+805,Michael,95318203,1996
+806,The Princess Diaries 2: Royal Engagement,95170481,2004
+807,42,95020213,2013
+808,Unbreakable,95011339,2000
+809,Encanto,95004134,2021
+810,The Book of Eli,94835059,2010
+811,10000 BC,94784201,2008
+812,Beverly Hills Chihuahua,94514402,2008
+813,Saturday Night Fever,94213184,1977
+814,Julie & Julia,94125426,2009
+815,The Mask of Zorro,94095523,1998
+816,Maid in Manhattan,94011225,2002
+817,He's Just Not That Into You,93953653,2009
+818,Master and Commander: The Far Side of the World,93927920,2003
+819,Flight,93772375,2012
+820,The Fighter,93617009,2010
+821,America's Sweethearts,93607673,2001
+822,Lady and the Tramp,93602326,1955
+823,The Bucket List,93466502,2007
+824,Tomorrowland,93436322,2015
+825,The Magnificent Seven,93432655,2016
+826,Cats & Dogs,93385515,2001
+827,Space Station 3D,93383953,2002
+828,Two Weeks Notice,93354851,2002
+829,Red Dragon,93149898,2002
+830,Cinderella,93141149,1950
+831,When Harry Met Sally...,93075866,1989
+832,Elysium,93050117,2013
+833,Flubber,92977226,1997
+834,Flashdance,92921203,1983
+835,The Town,92186262,2010
+836,Non-Stop,92168600,2014
+837,The Client,92115211,1994
+838,Blade Runner 2049,92054159,2017
+839,John Wick: Chapter 2,92029184,2017
+840,Star Trek: First Contact,92027888,1996
+841,Halloween Kills,92002155,2021
+842,Think Like a Man,91547205,2012
+843,Kindergarten Cop,91457688,1990
+844,Heaven Is for Real,91443253,2014
+845,The Haunting,91411151,1999
+846,Crimson Tide,91387195,1995
+847,Back to School,91258000,1986
+848,Ride Along 2,91221830,2016
+849,Stepmom,91137662,1998
+850,The Imitation Game,91125683,2014
+851,The Karate Kid,91077276,1984
+852,Save the Last Dance,91057006,2001
+853,The Scorpion King,91047077,2002
+854,Prince of Persia: The Sands of Time,90759676,2010
+855,Antz,90757863,1998
+856,Scary Movie 4,90710620,2006
+857,The Game Plan,90648202,2007
+858,Me Myself & Irene,90570999,2000
+859,High School Musical 3: Senior Year,90559416,2008
+860,Madea Goes to Jail,90508336,2009
+861,Space Cowboys,90464773,2000
+862,Space Jam,90418342,1996
+863,Get Hard,90411453,2015
+864,Trading Places,90404800,1983
+865,RED,90380162,2010
+866,Planes,90288712,2013
+867,Legally Blonde 2: Red White & Blonde,90186328,2003
+868,Mystic River,90135191,2003
+869,Terminator Genisys,89760956,2015
+870,Flightplan,89707299,2005
+871,The Emperor's New Groove,89636687,2000
+872,Father of the Bride,89325780,1991
+873,The Lone Ranger,89302115,2013
+874,Taken 3,89256424,2015
+875,Don't Breathe,89217875,2016
+876,Scream 3,89143175,2000
+877,Oblivion,89107235,2013
+878,The Ugly Truth,88915214,2009
+879,Percy Jackson & the Olympians: The Lightning Thief,88768303,2010
+880,Failure to Launch,88715192,2006
+881,The Muppets,88631237,2011
+882,Inside Man,88513495,2006
+883,Back to the Future Part III,88277583,1990
+884,Waterworld,88246220,1995
+885,Starsky & Hutch,88237754,2004
+886,Along Came Polly,88097164,2004
+887,The Hand that Rocks the Cradle,88036683,1992
+888,Entrapment,87704396,1999
+889,Peter Pan,87404651,1953
+890,Pineapple Express,87341380,2008
+891,Miss Peregrine's Home for Peculiar Children,87242834,2016
+892,Everest,87178599,1998
+893,Out of Africa,87071205,1985
+894,Sisters,87044645,2015
+895,Saw II,87039965,2005
+896,The Naked Gun 2½: The Smell of Fear,86930411,1991
+897,The Campaign,86907746,2012
+898,The War of the Roses,86888546,1989
+899,The Amityville Horror,86432000,1979
+900,Presumed Innocent,86303188,1990
+901,Young Frankenstein,86273333,1974
+902,The Accountant,86260045,2016
+903,Dumb and Dumber To,86208010,2014
+904,Cruella,86103234,2021
+905,The Emoji Movie,86089513,2017
+906,Mean Girls,86058055,2004
+907,Annie,85911262,2014
+908,Alvin and the Chipmunks: The Road Chip,85886987,2015
+909,Spy Kids 2: Island of Lost Dreams,85846429,2002
+910,Alita: Battle Angel,85838210,2019
+911,Fury,85817906,2014
+912,Pokémon: The First Movie - Mewtwo Strikes Back,85744662,1999
+913,Real Steel,85468508,2011
+914,The SpongeBob SquarePants Movie,85417988,2004
+915,Power Rangers,85364450,2017
+916,Brother Bear,85336277,2003
+917,Stripes,85297000,1981
+918,Anchorman: The Legend of Ron Burgundy,85288303,2004
+919,Every Which Way but Loose,85196485,1978
+920,Rocky II,85182160,1979
+921,Aliens,85160248,1986
+922,Open Season,85105259,2006
+923,Green Book,85080171,2018
+924,The Expendables 2,85028192,2012
+925,Dangerous Minds,84919401,1995
+926,Paranormal Activity 2,84752907,2010
+927,Steel Magnolias,84614512,1989
+928,The Poseidon Adventure,84563118,1972
+929,Tammy,84525432,2014
+930,The Santa Clause 3: The Escape Clause,84500122,2006
+931,Ferdinand,84410380,2017
+932,Crazy Stupid Love.,84351197,2011
+933,Annabelle,84273813,2014
+934,Pinocchio,84254167,1940
+935,Scooby-Doo 2: Monsters Unleashed,84216833,2004
+936,Birds of Prey,84158461,2020
+937,Atlantis: The Lost Empire,84056472,2001
+938,Cliffhanger,84049211,1993
+939,The Other Woman,83911193,2014
+940,The X Files,83898313,1998
+941,Penguins of Madagascar,83850911,2014
+942,Die Hard,83844093,1988
+943,Up in the Air,83823381,2009
+944,Wrath of the Titans,83670083,2012
+945,Insidious: Chapter 2,83586447,2013
+946,Under Siege,83563139,1992
+947,Battle Los Angeles,83552429,2011
+948,Immortals,83504017,2011
+949,I Can Only Imagine,83482352,2018
+950,Apocalypse Now,83471511,1979
+951,Airplane!,83453539,1980
+952,Patriot Games,83351587,1992
+953,Saving Mr. Banks,83301580,2013
+954,Smallfoot,83240103,2018
+955,Good Boys,83140306,2019
+956,Valkyrie,83077833,2008
+957,Brokeback Mountain,83043761,2005
+958,Turbo,83028128,2013
+959,Disclosure,83015089,1994
+960,Charlotte's Web,82985708,2006
+961,Monster-in-Law,82931301,2005
+962,Are We There Yet?,82674398,2005
+963,Days of Thunder,82670733,1990
+964,Freddy vs. Jason,82622655,2003
+965,Star Trek: The Motion Picture,82604699,1979
+966,The Descendants,82584160,2011
+967,Cheaper by the Dozen 2,82571173,2005
+968,Mr. Holland's Opus,82569971,1995
+969,Bram Stoker's Dracula,82522790,1992
+970,Fried Green Tomatoes,82418501,1991
+971,Let's Be Cops,82390774,2014
+972,Blade II,82348319,2002
+973,Beowulf,82280579,2007
+974,Bridge to Terabithia,82272442,2007
+975,The Pink Panther,82226474,2006
+976,Teenage Mutant Ninja Turtles: Out of the Shadows,82051601,2016
+977,The Post,81903458,2017
+978,Alien,81900459,1979
+979,Jaws 2,81766007,1978
+980,Maze Runner: The Scorch Trials,81697192,2015
+981,Heaven Can Wait,81640278,1978
+982,Eight Below,81612565,2006
+983,MASH,81600000,1970
+984,Unstoppable,81562942,2010
+985,Payback,81526121,1999
+986,Ted 2,81476385,2015
+987,The Talented Mr. Ripley,81298265,1999
+988,School of Rock,81261177,2003
+989,Police Academy,81198894,1984
+990,Snow Dogs,81172560,2002
+991,21,81159365,2008
+992,While You Were Sleeping,81057016,1995
+993,Congo,81022101,1995
+994,The Notebook,81001787,2004
+995,Jimmy Neutron: Boy Genius,80936232,2001
+996,Another 48 Hrs.,80818974,1990
+997,Moonstruck,80640528,1987
+998,Eat Pray Love,80574010,2010
+999,The Texas Chainsaw Massacre,80571655,2003
+1000,Zookeeper,80360843,2011
