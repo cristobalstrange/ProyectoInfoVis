@@ -94,3 +94,4 @@ function crearGrafico(productoras, ganancias) {
     };
 
     Plotly.newPlot('barChart', data, layout, config);
+}
