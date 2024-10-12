@@ -45,7 +45,6 @@ Papa.parse('data/data_fondos/brand.csv', {
     }
 });
 
-// Función para crear el gráfico de burbujas
 function crearGraficoBurbujas(productoras, gananciasTotales, estrenos, peliculasTaquilleras, gananciasPelicula) {
     const data = [{
         x: estrenos, // Eje X: Número de estrenos
@@ -104,7 +103,9 @@ function crearGraficoBurbujas(productoras, gananciasTotales, estrenos, peliculas
     };
 
     const config = {
-        staticPlot: true // Asegura que no haya interactividad
+        responsive: true, // Hacer el gráfico responsivo
+        displayModeBar: false, // Eliminar el menú de herramientas por completo
+        staticPlot: true // Asegurar que el gráfico sea completamente estático
     };
 
     Plotly.newPlot('bubbleChart', data, layout, config);
