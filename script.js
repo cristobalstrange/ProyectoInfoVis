@@ -192,7 +192,7 @@ document.addEventListener("DOMContentLoaded", function() {
                 });
 
                 currentYearIndex++;
-                setTimeout(animateNextFrame, 1000);
+                setTimeout(animateNextFrame, 30);
             }
 
             animateNextFrame();
