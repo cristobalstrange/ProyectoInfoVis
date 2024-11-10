@@ -31,9 +31,12 @@ document.addEventListener("DOMContentLoaded", function() {
             brandSelect.appendChild(option);
         });
 
-        const colors = d3.scaleOrdinal(d3.schemeCategory10);
+        const colorScale = d3.scaleOrdinal()
+            .domain(brandNames)
+            .range(brandNames.map((d, i) => d3.interpolateRainbow(i / brandNames.length)));
+
         let selectedBrand = 'all';
-        let traces = createTraces(processedData, colors, selectedBrand);
+        let traces = createTraces(processedData, colorScale, selectedBrand);
 
         const allYears = movies.map(movie => parseInt(movie['Año de estreno']));
         const minYear = Math.min(...allYears);
@@ -59,10 +62,11 @@ document.addEventListener("DOMContentLoaded", function() {
                 ticktext: ['10M', '100M', '1000M']
             },
             legend: {
+                orientation: "h", 
                 font: { color: "#ffd700", size: 12 },
-                x: 1.02,
-                y: 1,
-                xanchor: "left",
+                x: 0.5, 
+                y: -0.2, 
+                xanchor: "center",
                 yanchor: "top",
                 bgcolor: "#2d2d2d",
                 bordercolor: "#ffd700",
@@ -71,10 +75,15 @@ document.addEventListener("DOMContentLoaded", function() {
             },
             paper_bgcolor: "#2d2d2d",
             plot_bgcolor: "#1a1a1a",
-            width: 1550,
+            width: 1600,
             height: 680,
             autosize: false,
-            margin: { l: 70, r: 250, t: 20, b: 100 },
+            margin: {
+                l: 70,
+                r: 70,
+                t: 20,
+                b: 150 
+            },
             hoverlabel: {
                 font: {
                     color: "#e0e0e0"
@@ -83,6 +92,7 @@ document.addEventListener("DOMContentLoaded", function() {
                 bordercolor: "#ffd700"
             }
         };
+        
 
         const config = { responsive: false };
 
@@ -101,7 +111,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
         brandSelect.addEventListener('change', function() {
             selectedBrand = this.value;
-            traces = createTraces(processedData, colors, selectedBrand);
+            traces = createTraces(processedData, colorScale, selectedBrand);
             animationInProgress = false;
             Plotly.purge('plot');
             Plotly.newPlot("plot", [], layout, config);
@@ -109,7 +119,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
         function createTraces(dataObj, colorScale, selectedBrand) {
             const brandsToPlot = selectedBrand === 'all' ? Object.keys(dataObj).sort() : [selectedBrand];
-            return brandsToPlot.map((brand, index) => {
+            return brandsToPlot.map((brand) => {
                 const data = dataObj[brand];
                 return {
                     x: data.years,
@@ -124,7 +134,7 @@ document.addEventListener("DOMContentLoaded", function() {
                         size: data.revenues.map(revenue => revenue / 7),
                         sizemode: "area",
                         sizeref: 0.5,
-                        color: colorScale(index)
+                        color: colorScale(brand)
                     }
                 };
             });
@@ -204,7 +214,7 @@ document.addEventListener("DOMContentLoaded", function() {
                 const oscillator = context.createOscillator();
                 const gainNode = context.createGain();
 
-                oscillator.type = 'sine';
+                oscillator.type = "sine";
                 oscillator.frequency.value = frequency;
 
                 oscillator.connect(gainNode);
@@ -218,8 +228,6 @@ document.addEventListener("DOMContentLoaded", function() {
                     oscillator.stop();
                     context.close();
                 }, duration);
-            } else {
-                console.warn("La Web Audio API no es compatible con este navegador");
             }
         }
 
