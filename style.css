@@ -1,40 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative&display=swap');
+
 body {
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
-    height: 100vh;
     margin: 0;
-    background: linear-gradient(135deg, #101022, #02023b);
-    color: #f0f0f0;
-    font-family: Arial, sans-serif;
+    background-color: #1a1a1a; 
+    color: #e0e0e0;
+    font-family: 'Trebuchet MS', sans-serif;
 }
 
 #plot-container {
-    width: 90vw; /* Ajusta el ancho del contenedor */
+    width: 90vw;
     max-width: 1600px;
     text-align: center;
-    background-color: #0a094d;
+    background-color: #2d2d2d;
     border-radius: 15px;
-    box-shadow: 0px 4px 20px rgba(253, 228, 0, 0.3);
+    box-shadow: 0px 4px 20px rgba(255, 215, 0, 0.3);
     padding: 20px;
-    margin: auto;
+    margin: 20px auto;
+    position: relative;
 }
 
 h1 {
-    font-size: 2em;
-    color: #ffdd57;
-    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4);
+    font-size: 2.5em;
+    color: #ffd700; 
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
     margin-bottom: 20px;
+    font-family: 'Cinzel Decorative', cursive;
 }
 
 p {
-    font-size: 1.1em;
-    color: #ffdd57;
+    font-size: 1.2em;
+    color: #e0e0e0;
+    margin-top: 20px;
+}
+
+#controls {
+    margin-bottom: 20px;
+    color: #ffd700;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#controls label {
+    margin-right: 10px;
+    font-size: 1.2em;
+}
+
+#brand-select {
+    padding: 5px;
+    font-size: 1em;
+    background-color: #444;
+    color: #ffd700;
+    border: 1px solid #ffd700;
+    border-radius: 5px;
+}
+
+#play-button {
+    padding: 5px 15px;
+    font-size: 1em;
+    background-color: #ffd700;
+    color: #1a1a1a;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 20px;
+}
+
+#play-button:hover {
+    background-color: #e6c84e;
 }
 
 #plot {
-    width: 100%; /* Ajusta el ancho para dar espacio a la leyenda */
+    width: 100%;
     height: 75vh;
 }
 
+#main-container {
+    position: relative;
+}
+
+#main-container::before {
+    content: '';
+    background-image: url('path_to_cinema_background_image.jpg');
+    background-size: cover;
+    background-position: center;
+    opacity: 0.1;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+#plot {
+    position: relative;
+    z-index: 1;
+}

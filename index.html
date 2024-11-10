@@ -6,15 +6,22 @@
     <title>Entrega 2</title>
     <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
     <script src="https://d3js.org/d3.v5.min.js"></script>
-    <script src="script.js"></script>
 </head>
 <body>
     <div id="plot-container">
         <h1>Evolución de la Recaudación de Películas Exitosas por Productora</h1>
+        <div id="controls">
+            <label for="brand-select">Selecciona una productora:</label>
+            <select id="brand-select">
+                <option value="all">Todas</option>
+            </select>
+            <button id="play-button">Play</button>
+        </div>
         <div id="main-container">
             <div id="plot"></div>
         </div>
         <p>Este gráfico muestra la recaudación de las películas más exitosas de cada productora a lo largo de los años, permitiendo visualizar el desempeño de las principales productoras en el tiempo.</p>
     </div>
+    <script src="script.js"></script>
 </body>
 </html>

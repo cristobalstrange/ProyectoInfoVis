@@ -8,109 +8,220 @@ document.addEventListener("DOMContentLoaded", function() {
             const brand = movie.Productora;
             const year = parseInt(movie['Año de estreno']);
             const revenue = parseFloat(movie['Recaudacion mundial (Millones) (USD)']);
-            if (!processedData[brand]) {
-                processedData[brand] = { years: [], revenues: [], titles: [], totalRevenue: 0 };
-            }
-            processedData[brand].years.push(year);
-            processedData[brand].revenues.push(revenue);
-            processedData[brand].titles.push(movie.Película);
-        });
+            const director = movie.Director || 'Desconocido';
 
-        brands.forEach(brand => {
-            if (processedData[brand.Brand]) {
-                processedData[brand.Brand].totalRevenue = parseFloat(brand.Total);
-            }
-        });
-
-        const traces = Object.keys(processedData).map(brand => {
-            const data = processedData[brand];
-            return {
-                x: data.years,
-                y: data.revenues,
-                mode: "markers",
-                name: brand,
-                text: data.titles,
-                marker: {
-                    size: data.revenues.map(revenue => revenue / 7),
-                    sizemode: "area",
-                    sizeref: 0.5
+            if (brand && year && revenue) {
+                if (!processedData[brand]) {
+                    processedData[brand] = { years: [], revenues: [], titles: [], directors: [] };
                 }
-            };
+                processedData[brand].years.push(year);
+                processedData[brand].revenues.push(revenue);
+                processedData[brand].titles.push(movie.Película);
+                processedData[brand].directors.push(director);
+            }
         });
 
-        const years = Array.from(new Set(movies.map(movie => parseInt(movie['Año de estreno'])))).sort((a, b) => a - b);
-        const frames = years.map(year => {
-            const frameData = traces.map(trace => ({
-                x: trace.x.filter((_, i) => trace.x[i] <= year),
-                y: trace.y.filter((_, i) => trace.x[i] <= year),
-                marker: { ...trace.marker, size: trace.marker.size.filter((_, i) => trace.x[i] <= year) },
-                text: trace.text.filter((_, i) => trace.x[i] <= year),
-                name: trace.name
-            }));
-            return { name: year.toString(), data: frameData };
+        const brandNames = Object.keys(processedData).sort();
+
+        const brandSelect = document.getElementById('brand-select');
+        brandNames.forEach(brand => {
+            const option = document.createElement('option');
+            option.value = brand;
+            option.textContent = brand;
+            brandSelect.appendChild(option);
         });
+
+        const colors = d3.scaleOrdinal(d3.schemeCategory10);
+        let selectedBrand = 'all';
+        let traces = createTraces(processedData, colors, selectedBrand);
+
+        const allYears = movies.map(movie => parseInt(movie['Año de estreno']));
+        const minYear = Math.min(...allYears);
+        const maxYear = Math.max(...allYears);
+        const years = Array.from(new Set(allYears)).sort((a, b) => a - b);
 
         const layout = {
             xaxis: {
-                title: { text: "Año de estreno", font: { color: "#ffdd57", size: 18 } },
-                gridcolor: "lightgray",
-                color: "#ffffff"
+                title: { text: "Año de estreno", font: { color: "#ffd700", size: 18 } },
+                gridcolor: "#444",
+                color: "#e0e0e0",
+                zerolinecolor: "#444",
+                range: [minYear - 1, maxYear + 1]
             },
             yaxis: {
-                title: { text: "Recaudación mundial (Millones USD)", font: { color: "#ffdd57", size: 18 } },
+                title: { text: "Recaudación mundial (Millones USD)", font: { color: "#ffd700", size: 18 } },
                 type: "log",
-                gridcolor: "lightgray",
-                color: "#ffffff"
+                gridcolor: "#444",
+                color: "#e0e0e0",
+                zerolinecolor: "#444",
+                range: [1, 3.7],
+                tickvals: [1, 2, 3],
+                ticktext: ['10M', '100M', '1000M']
             },
             legend: {
-                font: { color: "#ffdd57", size: 12 },
-                x: 1.05,
+                font: { color: "#ffd700", size: 12 },
+                x: 1.02,
                 y: 1,
                 xanchor: "left",
                 yanchor: "top",
-                bgcolor: "#0a094d",
-                bordercolor: "#ffdd57",
+                bgcolor: "#2d2d2d",
+                bordercolor: "#ffd700",
                 borderwidth: 2,
-                traceorder: "normal", // Mantiene el orden de los elementos de la leyenda
-                staticPlot: true // Esto mantiene la leyenda fija
+                traceorder: "normal"
             },
-            paper_bgcolor: "rgba(0, 0, 0, 0)",
-            plot_bgcolor: "#ffffff",
-            width: 1550, // Puedes ajustar el ancho según tus necesidades
-            height: 680, // Puedes ajustar la altura según tus necesidades
-            updatemenus: [{
-                type: "buttons",
-                showactive: true,
-                buttons: [{
-                    label: "Play",
-                    method: "animate",
-                    args: [null, {
-                        mode: "immediate",
-                        fromcurrent: true,
-                        frame: { duration: 800, redraw: true },
-                        transition: { duration: 100 }
-                    }]
-                }]
-            }],
-            sliders: [{
-                active: 0,
-                y: -0.06,
-                font: { color: "#ffdd57" },
-                steps: years.map(year => ({
-                    label: year.toString(),
-                    method: "animate",
-                    args: [[year.toString()], { mode: "immediate", frame: { duration: 1000, redraw: true }, transition: { duration: 300 } }]
-                }))
-            }],
-            autosize: true,
-            margin: { l: 70, r: 250, t: 20, b: 100 } // Asegúrate de dejar suficiente espacio para la leyenda
+            paper_bgcolor: "#2d2d2d",
+            plot_bgcolor: "#1a1a1a",
+            width: 1550,
+            height: 680,
+            autosize: false,
+            margin: { l: 70, r: 250, t: 20, b: 100 },
+            hoverlabel: {
+                font: {
+                    color: "#e0e0e0"
+                },
+                bgcolor: "#2d2d2d",
+                bordercolor: "#ffd700"
+            }
         };
-        
 
-        const config = { responsive: true };
+        const config = { responsive: false };
 
-        Plotly.newPlot("plot", traces, layout, config).then(function() {
-            Plotly.addFrames("plot", frames);
+        Plotly.newPlot("plot", [], layout, config);
+
+        let animationInProgress = false;
+
+        document.getElementById('play-button').addEventListener('click', function() {
+            if (animationInProgress) return;
+            animationInProgress = true;
+            Plotly.purge('plot');
+            Plotly.newPlot("plot", [], layout, config).then(function() {
+                animateFrames(traces);
+            });
         });
+
+        brandSelect.addEventListener('change', function() {
+            selectedBrand = this.value;
+            traces = createTraces(processedData, colors, selectedBrand);
+            animationInProgress = false;
+            Plotly.purge('plot');
+            Plotly.newPlot("plot", [], layout, config);
+        });
+
+        function createTraces(dataObj, colorScale, selectedBrand) {
+            const brandsToPlot = selectedBrand === 'all' ? Object.keys(dataObj).sort() : [selectedBrand];
+            return brandsToPlot.map((brand, index) => {
+                const data = dataObj[brand];
+                return {
+                    x: data.years,
+                    y: data.revenues,
+                    mode: "markers",
+                    name: brand,
+                    text: data.titles.map((title, i) => {
+                        return `<b>${title}</b><br>Año: ${data.years[i]}<br>Recaudación: ${data.revenues[i]} millones USD<br>Director: ${data.directors[i]}`;
+                    }),
+                    hovertemplate: '%{text}<extra></extra>',
+                    marker: {
+                        size: data.revenues.map(revenue => revenue / 7),
+                        sizemode: "area",
+                        sizeref: 0.5,
+                        color: colorScale(index)
+                    }
+                };
+            });
+        }
+
+        function animateFrames(fullTraces) {
+            const years = Array.from(new Set(fullTraces.flatMap(trace => trace.x))).sort((a, b) => a - b);
+            let currentYearIndex = 0;
+            let totalBubbles = 0;
+
+            const originalSizes = fullTraces.map(trace => [...trace.marker.size]);
+
+            const initialTraces = fullTraces.map(trace => ({
+                ...trace,
+                x: [],
+                y: [],
+                marker: { ...trace.marker, size: [] },
+                text: []
+            }));
+            Plotly.addTraces('plot', initialTraces);
+
+            function animateNextFrame() {
+                if (currentYearIndex >= years.length) {
+                    animationInProgress = false;
+                    return;
+                }
+
+                const year = years[currentYearIndex];
+
+                fullTraces.forEach((trace, traceIndex) => {
+                    const indices = [];
+                    trace.x.forEach((xValue, i) => {
+                        if (xValue === year) {
+                            indices.push(i);
+                        }
+                    });
+
+                    if (indices.length > 0) {
+                        const newX = indices.map(i => trace.x[i]);
+                        const newY = indices.map(i => trace.y[i]);
+                        const newSize = indices.map(i => trace.marker.size[i]);
+                        const newText = indices.map(i => trace.text[i]);
+
+                        totalBubbles += newX.length;
+
+                        const scaleFactor = Math.max(1, 50 / totalBubbles);
+
+                        const updatedSizes = originalSizes[traceIndex].slice(0, totalBubbles).map(size => size * scaleFactor);
+
+                        Plotly.restyle('plot', {
+                            'marker.size': [updatedSizes]
+                        }, [traceIndex]);
+
+                        Plotly.extendTraces('plot', {
+                            x: [newX],
+                            y: [newY],
+                            text: [newText]
+                        }, [traceIndex]);
+
+                        indices.forEach((_, i) => {
+                            const frequency = 200 + (newSize[i] * 10);
+                            playTone(frequency, 500);
+                        });
+                    }
+                });
+
+                currentYearIndex++;
+                setTimeout(animateNextFrame, 1000);
+            }
+
+            animateNextFrame();
+        }
+
+        function playTone(frequency, duration) {
+            if (typeof AudioContext !== "undefined" || typeof webkitAudioContext !== "undefined") {
+                const context = new (window.AudioContext || window.webkitAudioContext)();
+                const oscillator = context.createOscillator();
+                const gainNode = context.createGain();
+
+                oscillator.type = 'sine';
+                oscillator.frequency.value = frequency;
+
+                oscillator.connect(gainNode);
+                gainNode.connect(context.destination);
+
+                oscillator.start();
+
+                gainNode.gain.exponentialRampToValueAtTime(0.0001, context.currentTime + duration / 1000);
+
+                setTimeout(() => {
+                    oscillator.stop();
+                    context.close();
+                }, duration);
+            } else {
+                console.warn("La Web Audio API no es compatible con este navegador");
+            }
+        }
+
     });
 });
