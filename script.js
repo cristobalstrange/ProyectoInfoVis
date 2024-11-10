@@ -102,7 +102,7 @@ document.addEventListener("DOMContentLoaded", function() {
                     args: [[year.toString()], { mode: "immediate", frame: { duration: 1000, redraw: true }, transition: { duration: 300 } }]
                 }))
             }],
-            autosize: false,
+            autosize: true,
             margin: { l: 70, r: 250, t: 20, b: 100 } // Asegúrate de dejar suficiente espacio para la leyenda
         };
         
