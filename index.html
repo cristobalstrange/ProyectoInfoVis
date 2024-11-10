@@ -1,15 +1,18 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
-    <title>Proyecto 1</title>
     <link rel="stylesheet" href="style.css">
+    <title>Entrega 2</title>
     <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.0/papaparse.min.js"></script>
+    <script src="https://d3js.org/d3.v5.min.js"></script>
+    <script src="script.js"></script>
 </head>
 <body>
-    <h1>Top 10 Productoras Cinematrográficas con mayores ganancias en taquilla (2024)</h1>
-    <div id="barChart"></div>
-    <script src="eventos.js"></script> 
+    <div id="plot-container">
+        <h1>Evolución de la Recaudación de Películas Exitosas por Productora</h1>
+        <div id="plot"></div>
+        <p>Este gráfico muestra la recaudación de las películas más exitosas de cada productora a lo largo de los años, permitiendo visualizar el desempeño de las principales productoras en el tiempo.</p>
+    </div>
 </body>
 </html>
