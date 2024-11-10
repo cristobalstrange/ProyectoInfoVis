@@ -63,10 +63,21 @@ document.addEventListener("DOMContentLoaded", function() {
                 color: "#ffffff"
             },
             legend: {
-                font: { color: "#ffdd57" }
+                font: { color: "#ffdd57", size: 12 },
+                x: 1.05,
+                y: 1,
+                xanchor: "left",
+                yanchor: "top",
+                bgcolor: "#0a094d",
+                bordercolor: "#ffdd57",
+                borderwidth: 2,
+                traceorder: "normal", // Mantiene el orden de los elementos de la leyenda
+                staticPlot: true // Esto mantiene la leyenda fija
             },
             paper_bgcolor: "rgba(0, 0, 0, 0)",
             plot_bgcolor: "#ffffff",
+            width: 1550, // Puedes ajustar el ancho según tus necesidades
+            height: 680, // Puedes ajustar la altura según tus necesidades
             updatemenus: [{
                 type: "buttons",
                 showactive: true,
@@ -84,16 +95,17 @@ document.addEventListener("DOMContentLoaded", function() {
             sliders: [{
                 active: 0,
                 y: -0.06,
+                font: { color: "#ffdd57" },
                 steps: years.map(year => ({
                     label: year.toString(),
                     method: "animate",
                     args: [[year.toString()], { mode: "immediate", frame: { duration: 1000, redraw: true }, transition: { duration: 300 } }]
                 }))
             }],
-            autosize: true,
-            length: 100000,
-            margin: { l: 70, r: 30, t: 20, b: 60 }
+            autosize: false,
+            margin: { l: 70, r: 250, t: 20, b: 100 } // Asegúrate de dejar suficiente espacio para la leyenda
         };
+        
 
         const config = { responsive: true };
 

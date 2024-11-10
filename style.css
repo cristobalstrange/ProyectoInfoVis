@@ -11,13 +11,14 @@ body {
 }
 
 #plot-container {
-    width: 90vw; /* Aumenta el ancho del contenedor */
-    max-width: 1200px; /* Aumenta el ancho máximo para pantallas grandes */
+    width: 90vw; /* Ajusta el ancho del contenedor */
+    max-width: 1600px;
     text-align: center;
     background-color: #0a094d;
-    border-radius: 10px;
+    border-radius: 15px;
     box-shadow: 0px 4px 20px rgba(253, 228, 0, 0.3);
     padding: 20px;
+    margin: auto;
 }
 
 h1 {
@@ -27,13 +28,13 @@ h1 {
     margin-bottom: 20px;
 }
 
-#plot {
-    width: 100%;
-    height: 75vh; /* Aumenta la altura del gráfico */
-}
-
 p {
     font-size: 1.1em;
     color: #ffdd57;
-    margin-top: 20px;
 }
+
+#plot {
+    width: 100%; /* Ajusta el ancho para dar espacio a la leyenda */
+    height: 75vh;
+}
+
