@@ -62,10 +62,10 @@ document.addEventListener("DOMContentLoaded", function() {
                 ticktext: ['10M', '100M', '1000M']
             },
             legend: {
-                orientation: "h", 
+                orientation: "h",
                 font: { color: "#ffd700", size: 12 },
-                x: 0.5, 
-                y: -0.2, 
+                x: 0.5,
+                y: -0.2,
                 xanchor: "center",
                 yanchor: "top",
                 bgcolor: "#2d2d2d",
@@ -82,7 +82,7 @@ document.addEventListener("DOMContentLoaded", function() {
                 l: 70,
                 r: 70,
                 t: 20,
-                b: 150 
+                b: 150
             },
             hoverlabel: {
                 font: {
@@ -92,7 +92,7 @@ document.addEventListener("DOMContentLoaded", function() {
                 bordercolor: "#ffd700"
             }
         };
-        
+
 
         const config = { responsive: false };
 
@@ -127,7 +127,7 @@ document.addEventListener("DOMContentLoaded", function() {
                     mode: "markers",
                     name: brand,
                     text: data.titles.map((title, i) => {
-                        return `<b>${title}</b><br>Año: ${data.years[i]}<br>Recaudación: ${data.revenues[i]} millones USD<br>Director: ${data.directors[i]}`;
+                        return `<b>${title}</b><br> Productora: ${data.brand}<br>Año: ${data.years[i]}<br>Recaudación: ${data.revenues[i]} m USD<br>Director: ${data.directors[i]}`;
                     }),
                     hovertemplate: '%{text}<extra></extra>',
                     marker: {
