@@ -76,7 +76,7 @@ document.addEventListener("DOMContentLoaded", function() {
             paper_bgcolor: "#2d2d2d",
             plot_bgcolor: "#1a1a1a",
             width: 1600,
-            height: 680,
+            height: 620,
             autosize: false,
             margin: {
                 l: 70,
