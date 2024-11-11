@@ -127,7 +127,7 @@ document.addEventListener("DOMContentLoaded", function() {
                     mode: "markers",
                     name: brand,
                     text: data.titles.map((title, i) => {
-                        return `<b>${title}</b><br>Productora: ${brand}<br>Año: ${data.years[i]}<br>Recaudación: ${data.revenues[i]} m USD<br>Director: ${data.directors[i]}`;
+                        return `<b>${title}</b><br>Productora: ${brand}<br>Año: ${data.years[i]}<br>Recaudación: ${data.revenues[i]}m USD<br>Director: ${data.directors[i]}`;
                     }),
                     hovertemplate: '%{text}<extra></extra>',
                     marker: {
